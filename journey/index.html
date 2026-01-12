@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Journey</title>
+
+  <meta name="description" content="Personal portfolio of Akyo Nei showcasing projects, skills, and contact information.">
+
+  <meta name="theme-color" content="#ffffff">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/akyoicon.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/akyoicon.png">
+
+
+  <!--  FONTS  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=VT323&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <section class="journey__section" id="journey">
+  <h2 class="journey__title">DEV JOURNEY.LOG <span class="cursor">█</span></h2>
+  <p class="journey__subtitle">Notes from my learning adventure</p>
+
+  <!-- FILTER -->
+  <div class="journey__filter">
+    <button class="filter active" data-filter="all">ALL</button>
+    <button class="filter" data-filter="coding">CODING</button>
+    <button class="filter" data-filter="design">DESIGN</button>
+    <button class="filter" data-filter="game">GAME</button>
+  </div>
+
+  <div class="journey__grid" id="journeyGrid"></div>
+</section>
+
+<!-- MODAL DETAIL -->
+<div class="journey__modal" id="journeyModal">
+  <div class="journey__modal__box">
+    <span class="modal__close" id="modalClose">✖</span>
+    <h3 id="modalDate"></h3>
+    <p id="modalText"></p>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="./script.js" defer></script>
+  
+</body>
+</html>
