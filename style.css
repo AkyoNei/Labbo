@@ -610,7 +610,7 @@ footer {
 
 .footer__left img:hover {
   background: #ffffff;
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.40);
   transform: translateY(-4px);
 }
 

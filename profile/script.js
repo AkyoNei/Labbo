@@ -66,7 +66,7 @@ const skillData = {
     level: 70,
     levelText: "Intermediate",
     desc: "I build clean and structured layouts using semantic HTML for better accessibility and performance.",
-    icon: "/assets/html.png",
+    icon: "../assets/html.png",
     color : "#e64c18"
   },
   CSS: {
@@ -74,7 +74,7 @@ const skillData = {
     level: 60,
     levelText: "Intermediate",
     desc: "I design responsive and visually consistent interfaces using modern CSS techniques.",
-    icon: "/assets/css.png", 
+    icon: "../assets/css.png", 
     color : "#004ce8"
   },
   JavaScript: {
@@ -82,7 +82,7 @@ const skillData = {
     level: 65,
     levelText: "Intermediate",
     desc: "I add interactivity and dynamic behavior to web pages using core JavaScript fundamentals.",
-    icon: "/assets/javascript.png",
+    icon: "../assets/javascript.png",
     color : "#fad725"
   },
   TypeScript: {
@@ -90,7 +90,7 @@ const skillData = {
     level: 55,
     levelText: "Intermediate",
     desc: "I write more reliable and maintainable code with TypeScript’s static typing and tooling benefits.",
-    icon: "/assets/typescript.png" ,
+    icon: "../assets/typescript.png" ,
     color : "#0078cf"
   },
   React: {
@@ -98,7 +98,7 @@ const skillData = {
     level: 65,
     levelText: "Intermediate",
     desc: "I build modular, reactive UI components and manage state efficiently using React’s ecosystem.",
-    icon: "/assets/react.png",
+    icon: "../assets/react.png",
     color : "#61dbfb"
   },
   TailwindCSS: {
@@ -106,7 +106,7 @@ const skillData = {
     level: 60,
     levelText: "Intermediate",
     desc: "I style interfaces quickly and consistently using Tailwind’s utility-first workflow.",
-    icon: "/assets/tailwind.png",
+    icon: "../assets/tailwind.png",
     color: "#35bef8"
   },
   NodeJS: {
@@ -115,7 +115,7 @@ const skillData = {
     level: 65,
     levelText: "Intermediate",
     desc: "I create scalable backend services and APIs using JavaScript on the server.",
-    icon: "/assets/nodejs.png",
+    icon: "../assets/nodejs.png",
     color: "#6ca55f"
   },
   BUN: {
@@ -123,7 +123,7 @@ const skillData = {
     level: 40,
     levelText: "Beginner",
     desc: "I use Bun for fast development workflows, including API creation and script execution.",
-    icon: "/assets/bun.png",
+    icon: "../assets/bun.png",
     color: "#665c59"
   },
   PHP: {
@@ -131,7 +131,7 @@ const skillData = {
     level: 60,
     levelText: "Intermediate",
     desc: "I develop server-side logic and dynamic web features using PHP fundamentals.",
-    icon: "/assets/php.png",
+    icon: "../assets/php.png",
     color: "#484c89"
   },
   MySQL: {
@@ -139,7 +139,7 @@ const skillData = {
     level: 40,
     levelText: "Beginner",
     desc: "I design and manage relational databases using structured queries and optimized schemas.",
-    icon: "/assets/mysql.png",
+    icon: "../assets/mysql.png",
     color: "#ce8b2c"
   },
   npm: {
@@ -147,7 +147,7 @@ const skillData = {
     level: 30,
     levelText: "Beginner",
     desc: "I manage project dependencies and scripts efficiently using npm.",
-    icon: "/assets/npm.png",
+    icon: "../assets/npm.png",
     color: "#d50100"
   },
   Git: {
@@ -155,7 +155,7 @@ const skillData = {
     level: 45,
     levelText: "Intermediate",
     desc: "I track changes and manage versions effectively through Git workflows.",
-    icon: "/assets/git.png",
+    icon: "../assets/git.png",
     color: "#f05033" 
   },
   GitHub: {
@@ -163,7 +163,7 @@ const skillData = {
     level: 55,
     levelText: "Intermediate",
     desc: "I collaborate, review code, and deploy projects using GitHub repositories.",
-    icon: "/assets/origithub.png",
+    icon: "../assets/origithub.png",
     color: "#111"
   },
   VSCode: {
@@ -172,7 +172,7 @@ const skillData = {
     level: 60,
     levelText: "Intermediate",
     desc: "I work efficiently with VS Code’s extensions, shortcuts, and workflow tools.",
-    icon: "/assets/vscode.png",
+    icon: "../assets/vscode.png",
     color: "#1faff3"
   },
   Figma: {
@@ -180,7 +180,7 @@ const skillData = {
     level: 38,
     levelText : "Beginner",
     desc: "I create UI designs and prototypes that translate smoothly into development.",
-    icon: "/assets/figma.png",
+    icon: "../assets/figma.png",
     color: "#f24d18"
   },
   cpp: {
@@ -189,7 +189,7 @@ const skillData = {
     level: 20,
     levelText: "Beginner",
     desc: "I’m exploring C++ to understand lower-level programming and system concepts.",
-    icon: "/assets/c++.png",
+    icon: "../assets/c++.png",
     color: "#00589d"
   },
   unity: {
@@ -198,7 +198,7 @@ const skillData = {
     level: 30,
     levelText: "Beginner",
     desc: "I create basic gameplay mechanics and interactive scenes using Unity and C# scripting.",
-    icon: "/assets/csharp.png",
+    icon: "../assets/csharp.png",
     color: "#360092"
   },
   ElysiaJS: {
@@ -206,7 +206,7 @@ const skillData = {
     level: 25,
     levelText: "Beginner",
     desc: "I experiment with ElysiaJS to build lightweight and modern backend APIs on Bun.",
-    icon: "/assets/elysia.png",
+    icon: "../assets/elysia.png",
     color: "#c154f8ff"
   }
 };
@@ -332,17 +332,17 @@ const eduDetail = document.getElementById('eduDetail');
 // data sekolahmu
 const eduData = {
   e1: {
-    logo: "/assets/fix-sd.png",
+    logo: "../assets/fix-sd.png",
     title: "SD Negeri 78 Palembang",
     desc: "My first step into formal education, where I built the foundation of my curiosity and discipline."
   },
   e2: {
-    logo: "/assets/fix-smp.png",
+    logo: "../assets/fix-smp.png",
     title: "SMP Negeri 7 Palembang",
     desc: "A period of growth where I strengthened my academic habits and learned to explore technology deeper."
   },
   e3: {
-    logo: "/assets/fix-sma8.png",
+    logo: "../assets/fix-sma8.png",
     title: "SMA Negeri 8 Palembang",
     desc: "A transformative experience shaping my path toward becoming a developer with passion and direction."
   }
@@ -386,8 +386,8 @@ const projects = {
     title: "Personal Portfolio",
     desk: "A personal portfolio website built to showcase my skills, projects, and growth as a developer through a clean and responsive design.",
     tech: ["HTML", "CSS", "JavaScript"],
-    liveDemo: "http://127.0.0.1:5500/profile/index.html",
-    github: null,
+    liveDemo: "",
+    github: "https://github.com/akyonei",
   },
 
   game: {
