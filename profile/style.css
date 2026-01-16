@@ -299,6 +299,11 @@ h1, h2 {
     blinkCursor 0.8s steps(1) infinite;
 }
 
+.icon__navbar a {
+  color : var(--black);
+  text-decoration : none;
+}
+
 /* GHOST ANIMATION */
 .brand {
   display : flex;
